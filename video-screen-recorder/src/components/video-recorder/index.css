@@ -1,0 +1,15 @@
+.video-recorder{
+    background-color: cyan;
+}
+
+.video-recorder {
+    position: relative;
+}
+    
+.video-recorder .watermark-vid {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.5);
+}
